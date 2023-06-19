@@ -1,0 +1,307 @@
+
+
+
+.header {
+    overflow: hidden;
+    background-color: #0a61aa;
+    padding: 25px 15px;
+    
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 35px;
+  }
+  
+  .logo img {
+    max-width: 128px;
+    position: relative;
+    right: 10%;
+    
+  }
+  
+  .logo p {
+    font-family: 'Old English Text MT', serif;
+    font-size: 37px;
+    color: white;
+    position: relative;
+    right: 18%;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 13px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  
+  .header-right {
+    float: right;
+  }
+  
+  
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  
+    .logo {
+    float: none;
+    justify-content: center;
+  }
+  
+  .logo img {
+    float: none;
+    
+  }
+  
+  .logo p {
+    float: none;
+  }
+  }
+
+  @media screen and (max-width: 360px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .header-right {
+      float: none;
+      margin-top: 20px; /* Add vertical spacing */
+    }
+  
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .logo img {
+      max-width: 128px;
+      margin-right: 5px; /* Add some spacing between image and text */
+    }
+  
+    .logo p {
+      font-family: 'Old English Text MT', serif;
+      font-size: 37px;
+      color: white;
+    }
+    .about {
+      font-size: 30px;
+    }
+  }
+
+  .about {
+    text-align:center; 
+    background-color:#0a61aa; 
+    color: white; 
+    font-weight:bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+      
+        
+  
+          
+          .main-content {
+        padding-bottom: 50px; /* height of the footer */
+        
+      }
+      
+
+      body, html {
+        height: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        background-color: #f1f3fa !important;
+      }
+      
+      h1 {
+        margin-top: 0;
+      }
+      
+      .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url("pcus.jpg");
+        min-height: 60%;
+      }
+      
+      .w3-content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .responsive-span {
+        font-size: 60px;
+        white-space: nowrap; /* Prevent line breaks */
+      }
+      
+      @media screen and (max-width: 768px) {
+        .w3-content {
+          width: 90%;
+        }
+        
+        .responsive-span {
+          font-size: 40px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .w3-display-middle {
+          top: 30%;
+        }
+  
+        .responsive-span {
+          font-size: 30px;
+        }
+      }
+
+      @media screen and (max-width: 360px) {
+        .w3-content {
+          width: 60%;
+        }
+
+        
+        .w3-display-middle {
+          top: 55%;
+        }
+        .responsive-span {
+          font-size: 30px;
+          
+        }
+        .bgimg {
+          width: 100%;
+          min-height: 50%;
+        }
+        
+      
+        .address {
+          text-align: right;
+          padding-right: 10px; /* Adjust the right padding as needed */
+        }
+      
+        .address p {
+          margin: 0; /* Remove the default margin of the paragraph */
+        }
+      }
+
+      
+      
+    
+  
+      footer {
+      
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #0a61aa;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+      }
+  
+  
+  footer .address {
+      text-align: center;
+      padding-right: 10%;
+   
+  }
+  footer .left {
+    float: left;
+    width: 40px;
+    padding-top: 14px;
+
+  }
+  
+  footer .leftleft {
+    float: left;
+    width: 42px;
+    padding-top: 19px;
+  }
+  
+  footer .leftleftleft {
+    float: left;
+    width: 32px;
+    padding-top: 18px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin: 10px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Move the names below the image */
+  }
+  
+  
+  @media (max-width: 360px) {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 45px;
+    }
+    
+    li {
+      flex-basis: 50%;
+      text-align: center;
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Align items to the left */
+    }
+    
+    li img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 10px; /* Add spacing between image and name */
+    }
+  }
+
+
+  

@@ -1,0 +1,403 @@
+.header {
+    overflow: hidden;
+    background-color: #0a61aa;
+    padding: 25px 15px;
+    
+  }
+    .logo {
+      display: flex;
+      align-items: center;
+      float: left;
+      height: 35px;
+    }
+    
+    .logo img {
+      max-width: 128px;
+      position: relative;
+      right: 10%;
+      
+    }
+    
+    .logo p {
+      font-family: 'Old English Text MT', serif;
+      font-size: 37px;
+      color: white;
+      position: relative;
+      right: 18%;
+    }
+    
+    .header a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 18px; 
+      line-height: 13px;
+      border-radius: 5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    
+    .header a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+   
+    .header-right {
+      float: right;
+    }
+    
+    
+    
+    @media screen and (max-width: 500px) {
+      .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .header-right {
+        float: none;
+      }
+    
+      .logo {
+      float: none;
+      justify-content: center;
+    }
+    
+    .logo img {
+      float: none;
+      
+    }
+    
+    .logo p {
+      float: none;
+    }
+    }
+
+
+   
+    .main-content {
+          padding-bottom: 50px; /* height of the footer */
+          padding: 30px;
+          padding-top: 10px;
+        }
+        
+  body,h1,h2,h3,h4,h5{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; background-color: #f1f3fa !important;}
+  
+  * {box-sizing: border-box}
+      .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5{display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1167px;
+  margin: 0 auto;
+  
+  position: relative; /* add this to set the container as the relative positioning context */
+}
+
+/* Slideshow container */
+.slideshow-containers {
+  width: 1167px;
+  margin: 0 auto;
+  
+  position: relative; /* add this to set the container as the relative positioning context */
+}
+
+/* Slideshow container */
+.slideshow-containers1 {
+  width: 1167px;
+  margin: 0 auto;
+  
+  position: relative; /* add this to set the container as the relative positioning context */
+}
+
+/* Slideshow container */
+.slideshow-containers2 {
+  width: 1167px;
+  margin: 0 auto;
+  
+  position: relative; /* add this to set the container as the relative positioning context */
+}
+
+/* Slideshow container */
+.slideshow-containers3 {
+  width: 1167px;
+  margin: 0 auto;
+  
+  position: relative; /* add this to set the container as the relative positioning context */
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%; /* adjust this value to vertically center the buttons */
+  width: auto;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #0a61aa;
+}
+
+.prev {
+  left: 0; /* align the "previous" button to the left */
+  
+}
+
+.next {
+  right: 0; /* align the "next" button to the right */
+  
+}
+
+
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #0a61aa;
+  color: white;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .slideshow-container,
+  .slideshow-containers,
+  .slideshow-containers1,
+  .slideshow-containers2,
+  .slideshow-containers3 {
+    width: 100%;
+  }
+
+  .prev,
+  .next {
+    font-size: 20px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prev,
+  .next {
+    font-size: 16px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mph {
+    /* Remove flexbox-related properties */
+    display: initial;
+    flex-wrap: initial;
+    justify-content: initial;
+  }
+  .mph.mph-360 {
+    margin-left: 0;
+  }
+  .mphall {
+    /* Add text-align: justify; property */
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .title{
+    font-size:35px !important;
+  }
+
+  .reservebtn {
+    transform: scale(0.7); 
+    font-size: 27px; 
+  }
+
+  .rates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:80px;
+    white-space: nowrap;
+  }
+
+  .ls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:80px;
+    margin-top:30px;
+    white-space: nowrap;
+  }
+  .slideshow-container,
+  .slideshow-containers,
+  .slideshow-containers1,
+  .slideshow-containers2,
+  .slideshow-containers3 {
+    width: 100%;
+  }
+}
+
+
+.title {
+text-align: center ; 
+color: #0a61aa ; 
+font-size:40px;
+}
+.mph {
+  font-size: 20px; 
+  margin-left: 120px;
+}
+
+.rates {
+  color:black; 
+  font-size:25px; 
+  margin-left:85px;
+}
+
+.ls {
+  color:black; 
+  font-size:25px; 
+  margin-left:85px;
+}
+
+
+
+
+
+
+  .reservebtn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .reservebtn {
+    background-color: #8e8e8e;
+    color: white;
+    padding: 16px 20px;
+   
+    border: none;
+    cursor: pointer;
+    width: 23%;
+    opacity: 0.9;
+ 
+  }
+  
+  .reservebtn:hover {
+    opacity: 1;
+  }
+  
+  /* Responsive styles */
+@media (max-width: 768px) {
+  .reservebtn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .reservebtn {
+    width: 100%;
+  }
+}
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  
+  
+  footer {
+        
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #0a61aa;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+      }
+  
+  
+  footer .address {
+      text-align: center;
+      padding-right: 10%;
+   
+  }
+  footer .left {
+    float: left;
+    width: 40px;
+    padding-top: 14px;
+  
+  }
+  
+  footer .leftleft {
+    float: left;
+    width: 42px;
+    padding-top: 19px;
+  }
+  
+  footer .leftleftleft {
+    float: left;
+    width: 32px;
+    padding-top: 18px;
+  }
+
+  @media screen and (max-width: 360px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .header-right {
+      float: none;
+      margin-top: 20px; /* Add vertical spacing */
+    }
+  
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .logo img {
+      max-width: 128px;
+      margin-right: 5px; /* Add some spacing between image and text */
+    }
+  
+    .logo p {
+      font-family: 'Old English Text MT', serif;
+      font-size: 37px;
+      color: white;
+    }
+    .about {
+      font-size: 30px;
+    }
+
+    .label {
+      transform: scale(0.7); 
+      font-size: 15px;
+    }
+  
+
+.address {
+          text-align: right;
+          padding-right: 10px; /* Adjust the right padding as needed */
+        }
+      
+        .address p {
+          margin: 0; /* Remove the default margin of the paragraph */
+        }
+}
+
+.label {
+  background-color: #0a61aa; 
+  color: white; 
+  padding: 10px;
+}
+ 

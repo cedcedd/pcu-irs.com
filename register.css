@@ -1,0 +1,161 @@
+body {
+    
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  background-image: url(imagelog.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+ .container {
+      background: RGBA(10, 97, 170, 0.8);
+      margin:  0 auto;
+      width: 30%;
+      padding: 20px;
+    color: white;
+    }
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0 ;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0 ;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #8e8e8e;
+  color: white;
+  padding: 14px 10px;
+  margin: 0 10px; /* Add margin property here */
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.backbtn {
+  background-color: #8e8e8e;
+  color: white;
+  padding: 14px 10px;
+  font-weight: bold;
+  margin: 0 10px; /* Add margin property here */
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  opacity: 0.9;
+}
+
+.backbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+/* Media Query for responsive design */
+@media screen and (max-width: 600px) {
+  .registerbtn,
+  .backbtn {
+    width: 100%; /* Full width on smaller screens */
+    margin: 10px 0; /* Add margin to separate buttons vertically */
+  }
+}
+
+h1 {
+  font-family: 'Old English Text MT', serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 40px;
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 360px) {
+  h1 {
+      font-size: 35px;
+  }
+
+  .ppp {
+    font-size: 15px;
+  }
+
+  .container {
+    width:65%;
+    
+  }
+
+  .registerbtn,
+  .backbtn {
+    width: 100%; /* Full width on smaller screens */
+    margin: 5px 0; /* Add margin to separate buttons vertically */
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
